@@ -16,3 +16,5 @@ function fibsRec(n) {
   const array = fibsRec(n - 1);
   return array.concat(array[array.length - 1] + array[array.length - 2]);
 }
+
+console.log(fibsRec(8));

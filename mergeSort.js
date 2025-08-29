@@ -36,3 +36,5 @@ function merge(left, right) {
 
   return array;
 }
+
+console.log(mergeSort([3, 2, 1, 13, 8, 5, 0, 1]));
